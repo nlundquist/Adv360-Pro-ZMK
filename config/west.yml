@@ -4,15 +4,15 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: refil
       url-base: https://github.com/refil
-    - name: ssbb
-      url-base: https://github.com/ssbb
+    - name: nlundquist
+      url-base: https://github.com/nlundquist
   projects:
     - name: zmk
       remote: refil
       revision: adv360-z3.5-2
       import: app/west.yml
     - name: zmk-listeners
-      remote: ssbb
-      revision: v1
+      remote: nlundquist
+      revision: add-hid-listener
   self:
     path: config
