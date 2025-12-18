@@ -23,6 +23,15 @@
       };
     };
 
+  layer_listeners {
+      compatible = "zmk,layer-listeners";
+
+      nav_kp_copy_paste {
+          layers = <1>;
+          bindings = <&Win_Copy &Win_Paste>;
+      };
+  };
+
   keymap {
     compatible = "zmk,keymap";
 
