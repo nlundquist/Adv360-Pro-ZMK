@@ -37,7 +37,7 @@
       };
 
       tb_cyc_dpi: tb_cyc_dpi {
-        display-name = "Cycle Trackball DPI"
+        display-name = "Cycle Trackball DPI";
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         tap-ms = <5>;
